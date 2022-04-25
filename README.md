@@ -5,3 +5,9 @@
 ```
 npm run start-dev
 ```
+
+### 2) Run tests:
+
+```
+npm run test
+```
