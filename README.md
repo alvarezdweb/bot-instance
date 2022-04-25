@@ -3,7 +3,7 @@
 ### 1) Run the app:
 
 ```
-npm run start-dev
+npm run start
 ```
 
 ### 2) Run tests:
