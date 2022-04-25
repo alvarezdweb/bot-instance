@@ -9,6 +9,12 @@ describe('/contextoInicial', function () {
   test('Should return an object', async () => {
     const res = await request(app).post('/contextoInicial');
 
-    expect(typeof res.body).toBe('object');
+    expect(res.body).toEqual(
+      expect.objectContaining({
+        name: expect.any(String),
+        id: expect.any(String),
+        owner: expect.any(String),
+      }),
+    );
   });
 });
